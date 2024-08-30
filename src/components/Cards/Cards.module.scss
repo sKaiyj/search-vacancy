@@ -1,0 +1,7 @@
+.Cards {
+  overflow-y: scroll;
+  max-height: calc(
+    100vh - var(--navbar-height) - var(--filters-height) - var(--filters-height)
+  );
+  padding: 20px 60px;
+}
